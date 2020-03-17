@@ -1,0 +1,157 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;    
+}
+
+body{
+   /* padding: 10px; */
+   margin:0px;
+}
+
+.row {
+    padding: 12px 0px;
+    clear: both;
+}
+
+nav {
+    background-color: black;
+    padding: 16px;
+}
+
+nav > ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+nav > ul > li {
+    float: left;
+    padding: 0px 16px;
+    font-variant: small-caps;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+} 
+
+nav ul li a:hover {
+    color : #15a3e4;
+}
+/*
+   Only For Sub-Menus
+*/
+
+nav > ul > li > ul {
+    position: absolute;
+    padding: 0px;
+    padding-top: 16px;
+    list-style: none;
+    text-align: center;
+    display: none;
+}
+
+nav > ul > li > ul >li {
+    background-color: black;
+    padding: 5px;
+}
+
+nav > ul >li:hover > ul {
+    display: block;
+}
+
+ul.countries {
+    position: absolute;
+    padding: 0px;
+    list-style: none;
+    display: none;
+    white-space: nowrap;
+   /* display: inline-block; */
+    left: 7.1em;
+}
+
+ul.countries li {
+    background-color: black;
+    padding: 2px 10px
+}
+
+ul.continents > li:hover  ul.countries {
+    display: inline-block;
+}
+
+/*
+Main Section Contents
+*/
+
+.leftColumn {
+    width:75%;
+    float:left;
+}
+
+.leftColumn img {
+    max-width: 100%;
+}
+
+.rightColumn {
+    width: 25%;
+    float: right;
+}
+
+.rightColumn img {
+    max-width: 100%;
+}
+
+footer p{
+  text-align: center;
+}
+
+.rowFooter {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.cards {
+    margin: 10px;
+}
+.social > ul {
+   list-style: none;
+}
+
+.social > ul > li {
+   display: initial;
+   padding: 8px;
+}
+
+.social > ul > li > a {
+    padding: 8px;
+   /* background-color: #607D8B; */
+} 
+ 
+.instagram {  
+     background-color:#A67658;    
+} 
+
+.twitter {  
+    background-color:#46d4fe;    
+}  
+
+.facebook {  
+    background-color:#37589b;    
+} 
+
+.youtube {  
+    background-color:#A72B1D;    
+}
+
+.row:first-child {
+    padding: 0px;
+}
+
+.fa {
+    color: cornsilk;
+    font-size: x-large;
+    vertical-align: middle;
+}
